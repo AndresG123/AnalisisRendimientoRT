@@ -1,7 +1,7 @@
-Repositorio Integracion y entrega coninua
+Repositorio Integración y entrega continua
 Estudiantes: Mariana y Jaime.
 06/sept/2024
-Ingenieria de Software
+Ingeniería de Software
 
 Prueba de Kafkla con Firebase realtime database y c#
-Caputurar y procesar datos de entrenamientos de multiples usuarios en tiempo real. 
+Capturar y procesar datos de entrenamientos de múltiples usuarios en tiempo real. 
