@@ -1,0 +1,23 @@
+name: Check Secret Value
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  validate_secret:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Check if SECRET_KEY is set
+      run: |
+        if [ -z "${{ secrets.ATLETHES_SECRET}}" ]; then
+          echo "ATLETHES_SECRET no está configurado"
+          exit 1
+        else
+          echo "ATLETHES_SECRET está configurado como: ${{ secrets.ATLETHES_SECRET }}"
+        fi
