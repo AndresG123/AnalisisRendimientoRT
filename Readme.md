@@ -21,7 +21,7 @@ Este proyecto tiene como objetivo principal capturar y procesar datos de entrena
 - 📝 Generar reportes personalizados en tiempo real basados en el rendimiento de los usuarios.
 - 📈 Identificar patrones de rendimiento, detectar mejoras y áreas que requieren atención.
 
-## 🚀 Funcionalidades Clave
+## 🚀 Funcionalidades Clave 
 
 - **Streaming de Datos en Tiempo Real**: Utilizamos Apache Kafka para procesar y enviar datos continuamente desde los dispositivos de los usuarios hacia los servicios de análisis.
 - **Sincronización en Tiempo Real**: Firebase Realtime Database asegura que los datos de rendimiento estén sincronizados y accesibles en tiempo real desde cualquier dispositivo.
