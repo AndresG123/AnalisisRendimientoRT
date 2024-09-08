@@ -22,12 +22,3 @@ jobs:
           echo "ATLETHES_SECRET está configurado como: ${{ secrets.ATLETHES_SECRET }}"
         fi
 
-    - name: Validate VAR_ACTIONS environment variable
-      run: |
-        if [ -z "${{ env.VAR_ACTIONS }}" ]; then
-          echo "VAR_ACTIONS no está configurada."
-          exit 1
-        else
-          echo "VAR_ACTIONS está configurada como: ${{ env.VAR_ACTIONS }}"
-        fi
-
