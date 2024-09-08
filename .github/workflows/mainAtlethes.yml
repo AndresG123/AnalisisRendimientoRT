@@ -35,4 +35,4 @@ jobs:
           echo "VAR_ACTIONS está configurada como: ${{ env.VAR_ACTIONS }}"
         fi
       env:
-        VAR_ACTIONS: ${{ secrets.VAR_ACTIONS }}
+        VAR_ACTIONS: ${{ env.VAR_ACTIONS }}
