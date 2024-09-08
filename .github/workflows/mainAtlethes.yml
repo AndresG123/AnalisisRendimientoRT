@@ -24,9 +24,9 @@ jobs:
 
     - name: Validate VAR_ACTIONS environment variable
       run: |
-        if [ -z "${{ env.VAR_ACTIONS }}" ]; then
+        if [ -z "${{ vars.VAR_ACTIONS }}" ]; then
           echo "VAR_ACTIONS no está configurada."
           exit 1
         else
-          echo "VAR_ACTIONS está configurada como: ${{ env.VAR_ACTIONS }}"
+          echo "VAR_ACTIONS está configurada como: ${{ vars.VAR_ACTIONS }}"
         fi
