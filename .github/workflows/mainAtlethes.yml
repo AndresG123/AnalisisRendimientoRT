@@ -8,6 +8,7 @@ on:
 jobs:
   validate_secret:
     runs-on: ubuntu-latest
+    environment: Ambiente_Secretos
 
     steps:
     - name: Checkout code
