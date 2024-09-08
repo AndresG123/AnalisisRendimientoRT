@@ -1,7 +1,7 @@
 
 ---
 
-# ⚡ Análisis de Rendimiento en Tiempo Real (RT) ⚡
+# ⚡ Análisis de Rendimiento en Tiempo Real (RT) ⚡ 
 
 Repositorio del proyecto de *Integración y Entrega Continua de Software* como parte de la especialización en Ingeniería de Software. Este proyecto fue desarrollado por **Mariana y Jaime** el **06/sept/2024**.
 
