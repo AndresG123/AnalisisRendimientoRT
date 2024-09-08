@@ -7,7 +7,7 @@ Repositorio del proyecto de *Integración y Entrega Continua de Software* como p
 
 El propósito es integrar tecnologías como **Apache Kafka**, **Firebase Realtime Database** y **C#** para capturar y analizar el rendimiento deportivo de múltiples usuarios en tiempo real.
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías Utilizadas 
 
 - **Apache Kafka**: Gestión y procesamiento de datos en tiempo real, asegurando una comunicación eficiente entre los componentes del sistema.
 - **Firebase Realtime Database**: Sincroniza y almacena datos de usuarios en tiempo real, permitiendo consultas rápidas y acceso inmediato.
