@@ -5,11 +5,9 @@ on:
     branches:
       - master
 
-
 jobs:
   validate_secret:
     runs-on: ubuntu-latest
-    environment: Ambiente_Secretos
 
     steps:
     - name: Checkout code
@@ -17,22 +15,19 @@ jobs:
 
     - name: Validate ATLETHES_SECRET secret variable
       run: |
-        if [ -z "${{ secrets.ATLETHES_SECRET}}" ]; then
+        if [ -z "${{ secrets.ATLETHES_SECRET }}" ]; then
           echo "ATLETHES_SECRET no está configurado"
           exit 1
         else
           echo "ATLETHES_SECRET está configurado como: ${{ secrets.ATLETHES_SECRET }}"
         fi
-      env:
-        ATLETHES_SECRET: ${{ secrets.ATLETHES_SECRET }}
 
     - name: Validate VAR_ACTIONS environment variable
       run: |
         if [ -z "${{ env.VAR_ACTIONS }}" ]; then
-          echo "VAR_ACTIONS environment variable no está configurada."
+          echo "VAR_ACTIONS no está configurada."
           exit 1
         else
           echo "VAR_ACTIONS está configurada como: ${{ env.VAR_ACTIONS }}"
         fi
-      env:
-        VAR_ACTIONS: ${{ env.VAR_ACTIONS }}
+
