@@ -1,5 +1,6 @@
 
 ---
+var GOOGLE_API_KEY = AIzaSyA-AbCDEfGHIJklmNOPQRSTUVWXYZ1234567
 
 # ⚡ Análisis de Rendimiento en Tiempo Real (RT) ⚡ 
 
