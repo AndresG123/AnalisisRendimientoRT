@@ -5,9 +5,10 @@ internal class Program
     private static void Main(string[] args)
     {
         Console.WriteLine("Bienvenido/a al Análisis de Rendimiento Deportivo en Tiempo Real!");
+        //bienvenida a mi mundo
+        var AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE";
+        var AWS_SECRET_ACCESS_KEY = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
 
-        var SECRET_KEY = "admin123";
-        var API_KEY = "client123";
 
         // Datos de rendimiento simulados (pueden ser reemplazados por datos reales de Firebase)
         List<double> performanceData = new(){ 85.5, 90.2, 78.4, 92.3, 88.1 };
